@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+    height: auto;
+    color: white;
+}
+.kakilogo{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+.now{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+
+}
+.container{
+  margin: 25px 0px;
+  background-color: slategrey;
+  border-radius: 7px;
+  width: auto;
+  perspective: 1900px;
+  position: relative;
+  border: 3px solid red;
+}
+.movies{
+    text-align: center;
+    margin: 10px;
+    padding: 19px;
+}
+.schedule{
+    text-align: center;
+}
+.seat-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 19px 10px  0px 10px;
+    width: auto;
+   
+}
+.screen{
+    background-color: whitesmoke;
+    width: auto;
+    height: 180px;
+    margin: 0 30px;
+    transform: rotateX(-45deg);
+    box-shadow:0 3px 10px rgba(255, 255,255, 0.7);
+}
+.seat-arrange{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 19px;
+    width: auto;
+
+}
+.wrap{
+    text-align: center;
+}
+.print-preview{
+    background-color: teal;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+.print-preview:focus{
+    outline: none;
+}
+.seat{
+    height: 30px;
+    width: 30px;
+    background-color:wheat;
+    margin: 10px;
+    border-radius: 8px;
+    
+}
+.row .available:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+li{
+    list-style-type:none;
+}
+.seat:nth-of-type(3){
+    /* margin-right: 30px; */
+}
+.seat:nth-last-of-type(3){
+    /* margin-left: 18px; */
+}
+
+.selected{
+    background-color: blue;
+}
+.occupied{
+    background-color: red;
+}
+.available{
+    background-color: green;
+}
+.two{
+    margin-right: 50px;
+}
+.seven{
+    margin-left:50px ;
+}
+.pop-up-container{
+    background-color: rgba(0, 0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pop-up{
+    position: relative;
+    background-color: wheat;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px;
+    border: 3px solid red;
+
+}
+hr{
+    height: 5px;
+    background-color: red;
+}
+.print{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color:teal;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.show-time{
+    background-color: teal;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 19px;
+}
+#movie-date{
+    background-color: teal;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.movies{
+    color:black;
+    font-weight: bold;
+    background-color: teal;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    font-size: 19px;
+
+}
+.pick-movie{
+    color: white;
+    
+    padding: 19px;
+    text-align: left;
+    font-size: 19px;
+}
+.formss{
+    margin-top: 15px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Movie</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <img src="" class="kakilogo" alt="logo">
+ <br>
+ <img src="" class="applogo" alt="logo">
+ <br>
+ <div class="now">
+ <p>date</p>
+ <p>time</p>
+ </div>
+ <div class="whole">
+
+  <div class="container">
+    <div class="formss">
+        <form  class="list-date-time">
+            
+            <label for="movie-list" class="pick-movie">Please Select the Movie:</label>
+            <br>
+            <div class="movies">
+            <input type="radio" value="18" class="moves" name="movie-list" id="movie-list">   Fast and Furious-9- 18 USD
+            <br>
+            <input type="radio" value="14" class="moves" name="movie-list" id="movie-list">   Joker             - 14 USD
+            <br>
+            <input type="radio" value="15" class="moves" name="movie-list" id="movie-list">   Spider-Man        -15 USD
+            </div>
+            <br>
+            <div class="schedule">
+            <label for="movie-date and time">Please pick the date of show</label>
+            <input type="date" name="movie-date" id="movie-date">
+            <br>
+            <div class="movie-time">
+                <label for="movie-time">Pick your Show Time</label>
+                <select  id="show-time" class="show-time">
+                    <option value="11:30">11:30</option>
+                    <option value="16:00">16:00</option>
+                    <option value="21:00">21:00</option>
+                </select>
+
+            </div>
+            </div>
+        </form>
+       
+        <div class="screen"></div>
+        <div class="seat-arrange">
+           <div class="row">
+               <div class="  available seat" value="A-01"></div>
+               <div class="  seat occupied" value="B-01"></div>
+               <div class=" available seat" value="C-01" ></div>
+               <div class=" available seat" value="D-01"></div>
+               <div class=" seat occupied" value="E-01"></div>
+               <div class=" available seat" value="F-01"></div>
+           </div>
+           <div class="row two">
+            <div class=" available seat" value="A-02"></div>
+            <div class=" available seat" value="B-02"></div>
+            <div class=" available seat" value="C-02" ></div>
+            <div class="  seat occupied" value="D-02"></div>
+            <div class="  seat occupied" value="E-02"></div>
+            <div class=" available seat" value="F-02"></div>
+        </div>
+        <div class="row">
+            <div class=" seat occupied" value="A-03"></div>
+            <div class=" available seat" value="B-03"></div>
+            <div class=" available seat" value="C-03" ></div>
+            <div class=" available seat" value="D-03"></div>
+            <div class=" available seat" value="E-03"></div>
+            <div class=" available seat" value="F-03"></div>
+        </div>
+        <div class="row">
+            <div class="  seat occupied" value="A-04"></div>
+            <div class=" available seat" value="B-04"></div>
+            <div class=" available seat" value="C-04" ></div>
+            <div class=" available seat" value="D-04"></div>
+            <div class=" available seat" value="E-04"></div>
+            <div class=" available seat" value="F-04"></div>
+        </div>
+        <div class="row">
+            <div class=" available seat" value="A-05"></div>
+            <div class=" available seat" value="B-05"></div>
+            <div class=" available seat" value="C-05" ></div>
+            <div class=" available seat" value="D-05"></div>
+            <div class=" available seat" value="E-05"></div>
+            <div class="  seat occupied" value="F-05"></div>
+        </div>
+        <div class="row">
+            <div class=" available seat" value="A-06"></div>
+            <div class=" available seat" value="B-06"></div>
+            <div class=" available seat" value="C-06" ></div>
+            <div class=" available seat" value="D-06"></div>
+            <div class=" available seat" value="E-06"></div>
+            <div class="  seat occupied" value="F-06"></div>
+        </div>
+        <div class="row seven">
+            <div class=" available seat" value="A-07"></div>
+            <div class=" available seat occupied" value="B-07"></div>
+            <div class=" available seat" value="C-07" ></div>
+            <div class=" available seat" value="D-07"></div>
+            <div class=" available seat" value="E-07"></div>
+            <div class="  seat occupied" value="F-07"></div>
+        </div>
+        <div class="row">
+            <div class=" available seat" value="A-08"></div>
+            <div class=" available seat" value="B-08"></div>
+            <div class=" available seat" value="C-08" ></div>
+            <div class=" available seat" value="D-08"></div>
+            <div class=" available seat" value="E-08"></div>
+            <div class=" seat occupied" value="F-08"></div>
+        </div>
+    </div>
+        <ul class="seat-status">
+            <div>
+                <li>Occupied</li>
+                <div class="seat occupied"></div>
+            </div>
+            <div>
+                <li>Available</li>
+                <div class="seat available seat"></div>
+            </div>
+            <div>    
+                <li>Selected</li>
+                <div class="seat selected"></div>
+            </div>    
+        </ul>
+        <br>
+        
+       
+       
+        
+    </div>
+    <p class="wrap"><button class="print-preview">Booking Summary</button></p>
+   
+  </div>
+ </div>
+
+ <div class="pop-up-container">
+    <div class="pop-up">
+        <img src="" alt="logo">
+        <p>date and time</p>
+        <br>
+        <hr>
+        <h3>Booking Summary</h3>
+        <p>Movie Name</p>
+        <p>Show Date</p>
+        <p>Show Time</p>
+        <p>total Number of seats</p>
+        <p>Seat Numbers</p>
+        <hr>
+        <p>Total amount</p>
+        <hr>
+        <button class="print">Confirm and Print</button>
+
+
+    </div>
+
+
+ </div>
+
+
+
+<body>
+   <script src="./scripts.js"></script> 
+</body>
+</html>
