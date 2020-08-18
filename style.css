@@ -21,8 +21,8 @@ body{
 }
 .now{
     position: absolute;
-    top: 50px;
-    right: 300px;
+    top: 10px;
+    right: 50px;
 
 }
 .container{
@@ -85,7 +85,7 @@ body{
 .seat{
     height: 30px;
     width: 30px;
-    background-color:wheat;
+    background-color:green;
     margin: 10px;
     border-radius: 8px;
     
@@ -110,9 +110,9 @@ li{
 .occupied{
     background-color: red;
 }
-.available{
-    background-color: green;
-}
+/* .available{ */
+    /* background-color: green; */
+
 .two{
     margin-right: 50px;
 }
@@ -132,9 +132,13 @@ li{
     align-items: center;
 
 }
+.visible{
+    display: flex;
+}
 .pop-up{
     position: relative;
-    background-color: wheat;
+    background-color:ivory;
+    color: black;
     align-items: center;
     text-align: center;
     width: 100%;
@@ -157,12 +161,12 @@ hr{
     cursor: pointer;
 }
 .show-time{
-    background-color: teal;
+    /* background-color: teal; */
     padding: 10px;
     margin: 10px;
     border-radius: 4px;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 16px;
 }
 #movie-date{
     background-color: teal;
@@ -193,3 +197,4 @@ hr{
 .formss{
     margin-top: 15px;
 }
+
